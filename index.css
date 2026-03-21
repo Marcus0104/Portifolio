@@ -1,0 +1,125 @@
+body{
+    display: flex;
+    margin: 0dvh;
+    padding: 0dvh;
+    height: 100dvh;
+    background-image: linear-gradient(to top, red, blue);
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+ul a {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 18dvh;
+    padding-right: 15dvh;
+    text-decoration: none;
+    background-image: linear-gradient(to right, rgb(0, 213, 237), rgb(255, 119, 0));
+    border: 0.5dvh solid red;
+}
+
+ul {
+    margin-top: 0dvh;
+    display: flex;
+    list-style: none;
+    font-size: 5dvh;
+}
+
+ul a:hover {
+    color: red;
+    text-decoration: underline 6px;
+}
+footer{
+        padding: 2dvh;
+        text-align: center;
+        margin-top: auto;
+        background-image: linear-gradient(to right, rgb(0, 213, 237), rgb(255, 119, 0));
+}
+h1 {
+    padding: 1dvh;
+    font-size: 5dvh;
+    text-align: center;
+
+}
+.contato{
+    display: flex;
+    gap: 10dvh;
+}
+.github img{
+    height: 20dvh;
+    width: 20dvh;
+}
+.github{
+    display: flex;
+    padding: 15dvh 20dvh 0dvh 50dvh;
+    text-decoration: none;
+    color: black;
+}
+.github a{
+    padding: 2dvh;
+    text-decoration: none;
+    color: black;
+}
+.whatsapp img{
+    height: 30dvh;
+    width: 30dvh;
+}
+.whatsapp{
+    display: flex;
+    margin-left: 5dvh;
+    margin-top: 10dvh;
+}
+.whatsapp h1{
+    font-size: 4dvh;
+    text-decoration: none;
+    padding: 10dvh 0dvh 3dvh 3dvh;
+    margin-left: -13dvh;
+    margin-top: 0dvh;
+    color: black;
+}
+.inicio{
+    padding: 10dvh;
+    margin-top: -5dvh;
+    font-size: 7dvh;
+    text-align: left;
+}
+.inicio h1{
+    padding: 5dvh;
+}
+.sobre{
+
+    text-align: none;
+}
+.sobre h3{ 
+    margin-left: 10dvh;
+    margin-right: 10dvh;
+    font-size: 4dvh;
+    text-align: left;
+}
+.sobre img{
+    height: 40dvh;
+    width: 30dvh;
+    margin-left: 95dvh;
+    border: solid 1dvh black;
+    border-radius: 70%;
+    display: flex;
+}
+.foto{
+    display: flex;
+    gap: 45dvh;
+}
+.foto h1{
+    margin-left: 40dvh;
+    font-size: 6dvh;
+}
+.imagem img{
+    height: 43dvh;
+    width: 80dvh;
+    margin-left: 15dvh;
+    border: solid 1dvh black;
+}
+.imagem{
+    display: flex;
+    gap: 10dvh;
+    margin-top: 10dvh;
+}
